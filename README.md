@@ -58,7 +58,7 @@ python hf_download.py --model microsoft/deberta-xlarge-mnli --save_dir ./deberta
   评分
 ```bash
 sh scorer.sh
-#或使用nohup在后台运行 运行过程记录到test.log
+#或使用nohup在后台运行 运行过程记录到scorer.log
 #nohup sh -u scorer.sh > scorer.log 2>&1 &
 ```
 
