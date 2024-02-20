@@ -50,12 +50,13 @@ python post_process.py
 
 2. 评分
 
-  使用HuggingFace-Download-Accelerator下载bert评分的模型(以microsoft/deberta-xlarge-mnli模型为示例)
+
+2.1 使用HuggingFace-Download-Accelerator下载bert评分的模型(以microsoft/deberta-xlarge-mnli模型为示例)
 ```bash
 python hf_download.py --model microsoft/deberta-xlarge-mnli --save_dir ./deberta-xlarge-mnli
 ```
 
-  评分
+ 2.2  评分
 ```bash
 sh scorer.sh
 #或使用nohup在后台运行 运行过程记录到scorer.log
